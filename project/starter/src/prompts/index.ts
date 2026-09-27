@@ -9,3 +9,7 @@
  * export { TEST_COVERAGE_ANALYZER_PROMPT } from './test-coverage-analyzer.prompt';
  * export { REFACTORING_SUGGESTER_PROMPT } from './refactoring-suggester.prompt';
  */
+export { orchestratorPrompt } from './orchestrator.prompt.js';
+export { codeQualityAnalyzerPrompt } from './code-quality-analyzer.prompt.js';
+export { testCoverageAnalyzerPrompt } from './test-coverage-analyzer.prompt.js';
+export { refactoringSuggesterPrompt } from './refactoring-suggester.prompt.js';
